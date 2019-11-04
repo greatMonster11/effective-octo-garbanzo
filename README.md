@@ -1,17 +1,42 @@
-# 👷 `worker-template` Hello World
+# 👷 `worker-template` Random User
 
-A template for kick starting a Cloudflare worker project.
+A free random user generate api.
 
 [`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
 
-#### Wrangler
+#### Usgae
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+<pre><b>GET</b> https://random-user.npthanh.workers.dev/ </pre>
 
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
+user: {
+  id: 100,
+  name: {
+  _first: "Idaline",
+  _last: "Gass"
+  },
+  email: "igass2r@freewebs.com",
+  url_avatar: "https://robohash.org/repellendusblanditiisquia.bmp?size=50x50&set=set1",
+  gender: "Female",
+  location: {
+  city: "Coronda",
+  country: "Argentina"
+  },
+  contact: {
+  phone: "+54 224 190 9266",
+  bitcoin_address: "1CXYNZ8Sd6RrAwMn2AA7i6wKnXgeQS7vEk"
+  }
+}
 ```
 
-#### Serverless
+ ## Development
+ Created using [Cloudflare Workers](https://workers.dev)
+ <br />
+ Install [Wrangler](https://github.com/cloudflare/wrangler) to build
 
-To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
+ - `❯ wrangler generate kanye.rest https://github.com/greatMonster11/effective-octo-garbanzo`
+- `❯ wrangler preview`
+
+## License
+
+MIT
