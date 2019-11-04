@@ -12,19 +12,19 @@ A free random user generate api.
 user: {
   id: 100,
   name: {
-  _first: "Idaline",
-  _last: "Gass"
+    _first: "Idaline",
+    _last: "Gass"
   },
   email: "igass2r@freewebs.com",
   url_avatar: "https://robohash.org/repellendusblanditiisquia.bmp?size=50x50&set=set1",
   gender: "Female",
   location: {
-  city: "Coronda",
-  country: "Argentina"
+    city: "Coronda",
+    country: "Argentina"
   },
   contact: {
-  phone: "+54 224 190 9266",
-  bitcoin_address: "1CXYNZ8Sd6RrAwMn2AA7i6wKnXgeQS7vEk"
+    phone: "+54 224 190 9266",
+    bitcoin_address: "1CXYNZ8Sd6RrAwMn2AA7i6wKnXgeQS7vEk"
   }
 }
 ```
