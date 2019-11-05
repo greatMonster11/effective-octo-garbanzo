@@ -1,4 +1,4 @@
-# 👷 `worker-template` Random User
+# 👷 `worker` Random User
 
 A free random user generate api.
 
