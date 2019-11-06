@@ -34,7 +34,7 @@ user: {
  <br />
  Install [Wrangler](https://github.com/cloudflare/wrangler) to build
 
- - `❯ wrangler generate kanye.rest https://github.com/greatMonster11/effective-octo-garbanzo`
+ - `❯ wrangler generate random.user https://github.com/greatMonster11/effective-octo-garbanzo`
 - `❯ wrangler preview`
 
 ## License
