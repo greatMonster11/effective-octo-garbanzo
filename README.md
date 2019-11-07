@@ -1,6 +1,6 @@
 # 👷 `worker` Random User
 
-A free random user generate api. Limmited with `100.000` request per day.
+A free random user generate api. Limited with `100.000` request per day.
 
 [`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
 
